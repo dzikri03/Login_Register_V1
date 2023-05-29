@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Rental Laptop | Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div style="text-align: center;" class="flex-column">
+        <div class="login-box fixed">
+            <div class="form">
+                <form action="" method="post">
+                    @csrf
+                    <p class="salam">Assalamu'alaikum<span>👋</span></p>
+                    <h2>Sign in</h2>
+                    <div class="inputbox">
+                        <input id="username" type="text" name="username" required="required">
+                        <label for="username">Username</label>
+                        <i></i>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="password" type="password" name="password" required="required">
+                        <label for="password">Password</label>
+                        <i></i>
+                    </div>
+                    <div class="links">
+                        <!-- <a href="#">Forget Password</a> -->
+                        <!-- <a href="register">Signup</a> -->
+                    </div>
+                    <button class="login" type="submit">login</button>
+                    <div class="signup">
+                            <span class="dont">Don't</span> <span class="have">have</span> <span class="account">account</span> <span class="seru">🤔 ?</span><br>👉<a href="register.html" class="end"> Sign Up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
